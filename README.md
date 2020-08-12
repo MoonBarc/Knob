@@ -24,16 +24,24 @@ URL docker.pkg.github.com/hypersapling/master-node/mkube-master:$version
 ```
 
 There are 4 verbs so far:
+
 `[SETDEFAULT,VERSION,LOGIN,URL]`
+
 only Login and URL are required.
 
 There are also 3 system variables (custom ones coming soon)
 The system variables include:
+
 `[ask,version,default]`
+
 These need to be started using a `$` and can be put anywhere.
+
 The ask variable is special, and will prompt the user for the value when running the Knobfile
+
 The default variable can be changed using the `SETDEFAULT` verb.
+
 The version variable can be changed using the `VERSION` verb.
+
 The default variable is also the fallback value for when a user does not specify anything in an `$ask` prompt.
 
 Make sure the Dockerfile and Knobfile are both in the root directory!
