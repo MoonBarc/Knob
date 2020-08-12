@@ -1,0 +1,15 @@
+# Knobfile v0.1
+# This is an example Knobfile.
+# Run it using knob . OR knob .\Knobfile
+
+# Fallback for when $ask receives no input or when using $default
+SETDEFAULT 0.1
+
+# Use $ask to get a prompt from the terminal, or fall back to the latest default set above.
+VERSION $ask
+
+# <username>: Github username <token-path>: A plain github token stored at that path.
+LOGIN MoonBarc ~/GH_TOKEN.txt
+
+# $version is replaced with the version specified.
+URL docker.pkg.github.com/hypersapling/master-node/mkube-master:$version

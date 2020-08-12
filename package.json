@@ -1,0 +1,16 @@
+{
+  "name": "knob",
+  "version": "1.0.0",
+  "description": "An easy to use way to deploy to Github Packages for Docker.",
+  "main": "index.js",
+  "repository": "https://github.com/MoonBarc/Knob.git",
+  "author": "MoonBarc",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "bin": {
+    "knob": "./index.js"
+  }
+}
