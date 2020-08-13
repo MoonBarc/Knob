@@ -1,6 +1,6 @@
 {
   "name": "knob-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to use way to deploy to Github Packages for Docker.",
   "main": "index.js",
   "repository": "https://github.com/MoonBarc/Knob.git",
